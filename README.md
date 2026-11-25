@@ -1,33 +1,37 @@
 ## Hi, I'm Rahul
 
-**Control Tower – WFM Analyst** at Shiprocket, Gurugram. 4+ years in operations analytics.
+**Business Analyst** in operations and customer-experience analytics, Gurugram. 4+ years across e-commerce logistics (Shiprocket) and express courier (DTDC Express).
 
-My job, in one line: get the right number of people on the right queue at the right time, and spot it early when that starts to slip. Day to day that means capacity planning, intraday monitoring, root-cause analysis and a lot of SQL. Before WFM I spent about four years in logistics operations and MIS at DTDC Express, which is where I learned that a plan is only as good as the data behind it.
+My job, in one line: take a business question, find the data that answers it, and turn the answer into a decision someone can act on. Day to day that means gathering requirements from Ops, CX, Tech and Product, SQL on BigQuery, dashboards in Power BI, Tableau and Metabase, and root cause analysis when a KPI moves the wrong way.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-219543159/)
-[![Live dashboard](https://img.shields.io/badge/Live%20demo-WFM%20dashboard-2ea44f?logo=googlechrome&logoColor=white)](https://mail4rahulwork-sketch.github.io/powerbi-contact-centre-wfm-dashboard/)
+[![Live dashboard](https://img.shields.io/badge/Live%20demo-Power%20BI%20case%20study-2ea44f?logo=googlechrome&logoColor=white)](https://mail4rahulwork-sketch.github.io/service-performance-powerbi-analysis/)
 
 ---
 
-### Projects
+### Case studies
 
-These are side projects I built to practise the WFM problems I deal with at work. All the data is simulated, so no company or customer data is used anywhere.
+Each one starts from a business question, uses simulated data (no company or customer data anywhere) and ends with a recommendation.
 
-**[Contact Centre WFM Dashboard](https://github.com/mail4rahulwork-sketch/powerbi-contact-centre-wfm-dashboard)** · Power BI, DAX, Chart.js · [open the live version](https://mail4rahulwork-sketch.github.io/powerbi-contact-centre-wfm-dashboard/)
+**[Why did service level collapse in the festive peak?](https://github.com/mail4rahulwork-sketch/service-performance-powerbi-analysis)** · Power BI, DAX · [open the live version](https://mail4rahulwork-sketch.github.io/service-performance-powerbi-analysis/)
 
-Four months of voice, chat and email data in one view: service level, abandon, forecast accuracy, shrinkage and staffing gap by queue. The festive peak is where it gets interesting. Volume went up 35% but the forecast only planned for 15%, and service level dropped from 82% to 55%.
+A support team missed target every day of an 11-day peak. The analysis separates the causes: volume came in about 35% higher while the forecast planned for 15%, and longer handle times plus extra time off the floor widened the gap. Recommendation: forecast from last year's actual peak, freeze leave in the window, add a temporary batch.
 
-**[WFM Forecast to Erlang C Staffing](https://github.com/mail4rahulwork-sketch/wfm-forecast-erlang-staffing)** · Python, pandas
+**[Sale-week support demand: where should the extra budget go?](https://github.com/mail4rahulwork-sketch/sale-week-support-demand-analysis)** · Python
 
-Forecasts volume by half hour, turns it into agents with Erlang C, then adds shrinkage. Staffing interval by interval needed 33% fewer agent-hours than staffing flat to the daily peak. A 10 to 15% buffer lifted intervals meeting 80/20 from 59% to as high as 87%.
+Orders peak on sale day, tickets peak two days later. With exactly the same extra budget, spreading staff across the week after the sale ends with about 45% less backlog than doubling the team on sale day.
 
-**[Intraday RTA Early Warning](https://github.com/mail4rahulwork-sketch/intraday-rta-early-warning)** · Python
+**[Demand forecast to staffing cost: how much can we save?](https://github.com/mail4rahulwork-sketch/demand-forecast-staffing-cost-analysis)** · Python, pandas
 
-Replays a bad day on the floor with simple alert rules. Acting at the first alert at 10:00 instead of reacting at 13:00 kept about 21 points more service level. The cost was roughly 12 extra agent-hours, which is the real conversation an RTA has with ops.
+A better forecast plus hour-by-hour staffing needs 33% fewer agent-hours than staffing flat to the daily peak. A 10 to 15% buffer lifts intervals meeting target from 59% to as high as 87%.
 
-**[Headcount Capacity Plan](https://github.com/mail4rahulwork-sketch/contact-centre-headcount-capacity-plan)** · Python
+**[SLA early-warning rules: is acting early worth the cost?](https://github.com/mail4rahulwork-sketch/sla-early-warning-analysis)** · Python
 
-A 26-week hiring plan with attrition, a 6-week lead time and new-hire ramp. Hiring when the gap shows up left the peak 73% covered. Planning ahead plus one temp batch covered it fully and cut the surplus after the peak from about 28 FTE to 10.
+Two simple alert rules caught a bad day three hours earlier and turned a missed day (62%) into a met day (84%) for about 12 extra agent-hours.
+
+**[Peak-season hiring plan: when to hire, and how many?](https://github.com/mail4rahulwork-sketch/peak-season-hiring-plan-analysis)** · Python
+
+Hiring when the gap shows up leaves the peak 73% covered. Hiring ahead for the baseline plus one temporary batch covers it fully and cuts the surplus after the peak from about 28 FTE to 10.
 
 ---
 
@@ -40,10 +44,10 @@ A 26-week hiring plan with attrition, a 6-week lead time and new-hire ramp. Hiri
 ![Metabase](https://img.shields.io/badge/Metabase-509EE3?logo=metabase&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-VBA-217346?logo=microsoftexcel&logoColor=white)
 
-**WFM work:** capacity and workload planning, staffing and rosters, planned vs actual, shrinkage, SLA / FRT / backlog tracking, intraday early warnings.
+**Business analysis:** requirements gathering, KPI definition, root cause analysis, process improvement, scenario and cost-benefit analysis, stakeholder reporting.
 
-**Learning right now:** Erlang C in more depth and forecasting with ML, as part of my MBA in Data Science & AI at Chandigarh University.
+**Learning right now:** forecasting and machine learning for business decisions, as part of my MBA in Data Science & AI at Chandigarh University.
 
 ---
 
-If any of this is useful or you work on similar problems, I'm happy to talk shop on [LinkedIn](https://www.linkedin.com/in/rahul-219543159/).
+If you work on similar problems, I'm happy to talk on [LinkedIn](https://www.linkedin.com/in/rahul-219543159/).
